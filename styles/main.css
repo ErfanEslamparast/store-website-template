@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: IRANyekan;
+    src: url(../Fonts/Qs_Iranyekan.ttf);
+    font-family: vazir;
+    src: url(../Fonts/vazir.ttf);
+}
+body{
+    max-width: 100%;
+    font-size: 16px;
+    font-family:vazir, IRANyekan;
+    direction: rtl;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}

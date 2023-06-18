@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/flexboxgrid.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="stylesheet" href="./styles/animate.css">
+    <link rel="stylesheet" href="./styles/owl.carousel.min.css">
+    <link rel="stylesheet" href="./styles/owl.theme.default.min.css">
+    <title>My Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav-right">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="nav-left">
+            <a href="#">
+                <i class="fa-regular fa-circle-user"></i>
+                ثبت نام / ورود
+            </a>
+        </div>
+    </header>
+   <section class="slider">
+    <div class="slides">
+        <div class="item active" id="slide1">
+            <img src="./img/1.jpg">
+        </div>
+        <div class="item" id="slide2">
+            <img src="./img/2.jpg">
+        </div>
+        <div class="item" id="slide3">
+            <img src="./img/3.jpg">
+        </div>
+    </div>
+    <div class="buttons">
+        <i onclick="setSlide('slide1' , 1)" class="fa-solid fa-circle"></i>
+        <i onclick="setSlide('slide2' , 2)" class="fa-solid fa-circle"></i>
+        <i onclick="setSlide('slide3' , 3)" class="fa-solid fa-circle"></i>
+    </div>
+   </section>
+   <main>
+    <section class="products">
+        <div class="row">
+    <div class="carts col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="cart">
+            <img src="./img/p1.jpg">
+            <div class="offer">
+                <span>پیشنهاد ویژه</span>
+            </div>
+            <div class="score">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="title">
+                <p> هدست بیسیم تسکو مدل TH 5124 </p>
+            </div>
+            <div class="cart-info">
+                <div class="price">800 هزار تومان</div>
+            <div class="btn">
+                <span class="fvr">
+                    <p>علاقه</p>
+                    <i class="fa-solid fa-heart"></i>
+                 </span>
+                 <span class="buy">
+                    <p>خرید</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                 </span>
+            </div>
+            </div>      
+        </div>
+    </div>
+    <div class="carts col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="cart">
+            <img src="./img/p2.jpg">
+           
+            <div class="score">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="title">
+                <p>  هدست بیسیم تسکو مدل TH 5124</p>
+            </div>
+            <div class="cart-info">
+                <div class="price">750 هزار تومان</div>
+            <div class="btn">
+                <span class="fvr">
+                    <p>علاقه</p>
+                    <i class="fa-solid fa-heart"></i>
+                 </span>
+                 <span class="buy">
+                    <p>خرید</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                 </span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="carts col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="cart">
+            <img src="./img/p3.jpg">
+            <div class="score">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="title">
+                <p>  هدست بیسیم تسکو مدل TH 5124</p>
+            </div>
+            <div class="cart-info">
+                <div class="price">600 هزار تومان</div>
+            <div class="btn">
+                <span class="fvr">
+                    <p>علاقه</p>
+                    <i class="fa-solid fa-heart"></i>
+                 </span>
+                 <span class="buy">
+                    <p>خرید</p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                 </span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="carts col-lg-3 col-md-4 col-sm-6 col-xs-12">
+        <div class="cart">
+            <img src="./img/p4.jpg">
+            <div class="offer">
+                <span>پیشنهاد ویژه</span>
+            </div>
+            <div class="score">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="title">
+                <p>  هدست بیسیم تسکو مدل TH 5124</p>
+            </div>
+            <div class="cart-info">
+                <div class="price">950 هزار تومان</div>
+                <div class="btn">
+                    <span class="fvr">
+                        <p>علاقه</p>
+                        <i class="fa-solid fa-heart"></i>
+                     </span>
+                     <span class="buy">
+                        <p>خرید</p>
+                        <i class="fa-solid fa-cart-shopping"></i>
+                     </span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </section>
+    <section class="super-hot-offer">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="super-hot-offer-box">
+                    <span class="hot-offer">پیشنهاد شگفت انگیز</span>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="img-container">
+                                <img src="./img/airPod.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="info">
+                                <div class="price-offer">
+                                    <span class="price">1 میلیون تومان</span>
+                                    <span class="offer">60% تخفیف</span>
+                                </div>
+                                <span class="title">هدست بیسیم شیائومی طرح redmi</span>
+                                <div class="remaning-box">
+                                    <div class="counter-down">
+                                        <span id="second">55</span> :
+                                        <span id="minute">26 </span>:
+                                        <span id="hour">19</span>
+                                    </div>
+                                    <span class="remaning-time">
+                                        زمان باقیمانده تا پایان تخفیف
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="banner">
+                    <img src="./img/blackfriday.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dragable-list">
+        <div class="title">
+            <span>هندزفری ها</span>
+        </div>
+        <div id="owl-product" class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="cart">
+                    <img src="./img/h1.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>R136 هندزفری دبلیو یو دبلیو مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 95 هزار تومان</div>
+                    </div>      
+                </div>
+            </div>
+            <div class="item">
+                <div class="cart">
+                    <img src="./img/h2.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>        
+                    </div>
+                    <div class="title">
+                        <p>inpods 12 هندزفری بلوتوثی مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 286 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h3.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>LB301 هدست بیسیم آرسون مدل</p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 460 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h4.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>LB-9 هندزفری بیسیم لیتو مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 595 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h5.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>LE21 هندزفری لیتو مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 185 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h6.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>PA-6s هندزفری پاواریال مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 120 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h7.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>T13 هدفون بلوتوثی کیو سی وای مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 230 هزار تومان</div>
+                    </div>      
+                </div>
+            </div><div class="item">
+                <div class="cart">
+                    <img src="./img/h8.jpg">
+                    <div class="score">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="title">
+                        <p>R101 هندزفری بلوتوث رومن مدل  </p>
+                    </div>
+                    <div class="cart-info">
+                    <div class="btn">
+                        <span class="fvr">
+                            <p>علاقه</p>
+                            <i class="fa-solid fa-heart"></i>
+                         </span>
+                         <span class="buy">
+                            <p>خرید</p>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                         </span>
+                    </div>
+                    <div class="price"> 450 هزار تومان</div>
+                    </div>      
+                </div>
+            </div>
+        </div>
+    </section>
+   </main>
+   <footer>
+    <section class="top">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">درباره ما</div>
+                <div class="des">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">ما را در شبکه های اجتماعی دنبال کنید:</div>
+                    <div class="social-icons">
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://telegram.org"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom">
+        کلیه حقوق محفوظ می باشد © 2019
+    </section>
+   </footer>
+   <script src="./js/main.js"></script>
+   <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+</body>
+
+</html>

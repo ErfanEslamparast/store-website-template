@@ -1,0 +1,68 @@
+.container{
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    width: 100%;
+    min-height: 100vh;
+}
+.container .img-container{
+    width: 170%;
+    margin-top: 50%;
+}
+.container .login-container{
+    min-height: 60vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(163, 166, 173, 0.3);
+    margin:  100px;
+}
+.container .login-container .login-inputs{
+    margin: 0 25px;
+    padding: 10px 20px;
+    color: #eee;
+}
+.container .login-container .login-inputs .input-group{
+    margin: 20px 0;
+}
+.container .login-container .login-inputs .input-group .username{
+    margin-top: 40px;
+}
+.container .login-container .login-inputs .signup-link a{
+    color: #dc1d08;
+}
+.container .login-container .login-inputs .input-group input{
+    background: none;
+    outline: none;
+    border: 1px solid white;
+    border-radius:25px;
+    padding: 7px 20px;
+    width: 90%;
+    margin: 10px 0;
+}
+.container .login-container .login-inputs .submit-btn{
+    text-align: center;
+    margin: 40px 0;
+}
+.container .login-container .login-inputs .submit-btn input{
+    padding: 10px 30px;
+    background-color: #e74c3c;
+    color: #eee;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.container .login-container .social-icons{
+    width: 90%;
+    margin:0 auto;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+    padding: 10px 0;
+}
+.container .login-container .social-icons a{
+     color: #eee;
+}
